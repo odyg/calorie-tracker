@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Container for the Calorie Tracker -->
+    <div>
+      <h1>Calorie Tracker</h1>
+      <!-- Input fields for food information -->
+      <input id="name" type="text" placeholder="name" />
+      <input id="servingSize" type="text" placeholder="serving size" />
+      <input id="calorie" type="text" placeholder="calorie per serving" />
+      <!-- Button to add food entry -->
+      <button onclick="foodInput();">Add</button>
+      <!-- Button to submit and display food details -->
+      <button onclick="foodDetail();">Submit</button>
+    </div>
+    <br />
+    <br />
+
+    <!-- Container to display food information -->
+    <div id="foodInfo"></div>
+
+    <!-- Container to display total calorie consumption -->
+    <div id="totalcalorie"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
